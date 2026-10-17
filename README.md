@@ -51,3 +51,4 @@ This project demonstrates connectivity between two Amazon VPCs using AWS VPC Pee
 
 ## Cleanup
 Delete or stop lab resources when they are no longer needed to avoid unnecessary AWS charges.
+# aws-vpc-peering-project
