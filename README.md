@@ -55,3 +55,24 @@ Delete or stop lab resources when they are no longer needed to avoid unnecessary
 ## Architecture Diagram
 
 ![AWS VPC Peering Architecture](./AWS%20VPC%20Peering%20Architecture%20Infographic.png)
+
+
+## Connectivity Testing
+
+The following connectivity tests were completed successfully:
+
+| Source | Destination | Test Result |
+|---|---|---|
+| Bastion Host (10.10.1.65) | App-A (10.10.2.238) | Ping successful |
+| Bastion Host (10.10.1.65) | App-B (10.20.1.22) | Ping successful |
+| App-B (10.20.1.22) | App-A (10.10.2.238) | Ping successful |
+| Bastion Host | App-B | SSH successful |
+
+## Key Learnings
+
+- Created two VPCs with non-overlapping CIDR blocks.
+- Configured VPC Peering between the VPCs.
+- Updated route tables for private communication.
+- Configured security groups for SSH and ICMP.
+- Used a Bastion Host to access private EC2 instances.
+- Verified connectivity using ping and SSH.
