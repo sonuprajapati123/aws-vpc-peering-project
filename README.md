@@ -76,3 +76,9 @@ The following connectivity tests were completed successfully:
 - Configured security groups for SSH and ICMP.
 - Used a Bastion Host to access private EC2 instances.
 - Verified connectivity using ping and SSH.
+
+## Project Evidence
+
+### VPC Peering Connection Status
+
+![VPC Peering Active](./vpc-peering-active.png)
