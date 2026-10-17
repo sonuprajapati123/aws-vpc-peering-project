@@ -83,3 +83,10 @@ The following connectivity tests were completed successfully:
 ### VPC Peering Connection Status
 
 ![VPC Peering Active](./vpc-peering-active.png..png)
+
+
+## EC2 Instances
+
+Ye screenshot project ke teeno EC2 instances dikhata hai.
+
+![EC2 Instances](./ec2-instances.png)
