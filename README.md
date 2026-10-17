@@ -90,3 +90,10 @@ The following connectivity tests were completed successfully:
 Ye screenshot project ke teeno EC2 instances dikhata hai.
 
 ![EC2 Instances](./ec2-instances.png)
+
+
+## VPC Connectivity Test
+
+Ping test successful raha, jo VPC Peering ke through network connectivity verify karta hai.
+
+![VPC Connectivity Test](./vpc-connectivity-test.png)
